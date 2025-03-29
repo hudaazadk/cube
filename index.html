@@ -118,6 +118,7 @@
     </div>
   </div>
 
+<!-- alcami moto -->
   <div class="taste-effects">
     <p>Incredible Taste and Effects You Can Feel</p>
    </div>    
@@ -140,6 +141,8 @@
        </div>
      </div>
    </div>
+
+   <!-- alcami guarantees and quality -->
    <div class="alcami-guarantee">
      <div class="guarantee-item">
        <h3>OUR GUARANTEE</h3>
@@ -181,8 +184,9 @@
        </div>
      </div>
    </div>
+
+   <!-- brands that trust alcami -->
    <div class="trusted-brands">
-    <!-- 1. Text Link -->
     <div class="brand-link">
       <a href="https://www.alcamielements.com/products/himalayan-shilajit" target="_blank">
         AS SEEN IN
@@ -206,165 +210,163 @@
     </div>
   </div>
   
-  <div class="alcami-select-flavor">
-  <div class="alcami-product-image">
-  
-  <div class="alcami-elements-image-container">
-    <div class="elements-images">
-      <img src="elements-ring.png" alt="elements Ring" class="elements-ring">
-      <img src="alcami-main-product.png" alt="Alcami elements Image" class="main-product-img">
-    </div>
-  
-<div class="carousel-controls">
-  <button class="arrow left-slider" aria-label="Previous">
-    <img src="left-slider.png" alt="Previous">
-  </button>
-
-  <div class="radio-dots">
-    <span class="dot active"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
-
-  <button class="arrow right-slider" aria-label="Next">
-    <img src="right-slider.png" alt="Next">
-  </button>
-</div>
-
-  
-    <div class="alcami-thumbnail-row product-thumbnails">
-      <img src="alcami-products1.png" alt="Product 1">
-      <img src="alcami-products2.png" alt="Product 2">
-      <img src="alcami-products3.png" alt="Product 3">
-      <img src="alcami-products4.png" alt="Product 4">
-    </div>
-  
-    <div class="alcami-thumbnail-row packaging-thumbnails">
-      <img src="alcami-green-front.png" alt="Packaging 1">
-      <img src="alcami-green-back.png" alt="Packaging 2">
-      <img src="alcami-brown-front.png" alt="Packaging 3">
-      <img src="alcami-brown-back.png" alt="Packaging 4">
-    </div>
-  
-  </div>  
-
-  <div class="alcami-flavor">
-    <h2>Alcami Elements</h2>
-    <div class="star-rating">
-      ⭐⭐⭐⭐⭐ 4.7 (989+ reviews)
-    </div>
-    <p class="description">Discover the ancient wisdom supported by modern science, all within the synergy of Alcami Elements. Designed for those who aspire to elevate every facet of life with awareness and intention.</p>
-    <p class="section-label">Choose a flavor</p>
-    <div class="flavor-options">
-      <label class="flavor-option">
-        <div class="flavor-box">
-          <div class="flavor-label">
-            <input type="radio" name="flavor" checked>
-            <span class="flavor-name">Original</span>
+  <div class="alcami-flavor-wrapper">
+    <div class="alcami-select-flavor">
+      <div class="alcami-product-image">
+    
+        <div class="alcami-elements-image-container">
+          <div class="elements-images">
+            <img src="elements-ring.png" alt="elements Ring" class="elements-ring">
+            <img id="mainProductImage" src="alcami-main-product.png" alt="Alcami elements Image" class="main-product-img">
           </div>
-          <img src="alcami-white.png" alt="Original">
-          <span class="badge">BEST-SELLER</span>
-        </div>
-      </label>
     
-      <label class="flavor-option">
-        <div class="flavor-box">
-          <div class="flavor-label">
-            <input type="radio" name="flavor">
-            <span class="flavor-name">Matcha</span>
-          </div>
-          <img src="alcami-green.png" alt="Matcha">
-        </div>
-      </label>
+          <div class="carousel-controls">
+            <button class="arrow left-slider" aria-label="Previous" onclick="showPreviousImage()">
+              <img src="left-slider.png" alt="Previous">
+            </button>
     
-      <label class="flavor-option">
-        <div class="flavor-box">
-          <div class="flavor-label">
-            <input type="radio" name="flavor">
-            <span class="flavor-name">Cacao</span>
+            <div class="radio-dots" id="dotContainer"></div>
+    
+            <button class="arrow right-slider" aria-label="Next" onclick="showNextImage()">
+              <img src="right-slider.png" alt="Next">
+            </button>
           </div>
-          <img src="alcami-brown.png" alt="Cacao">
+    
+          <div class="alcami-thumbnail-row product-thumbnails" id="productThumbnails">
+            <img src="alcami-products1.png" alt="Product 1">
+            <img src="alcami-products2.png" alt="Product 2">
+            <img src="alcami-products3.png" alt="Product 3">
+            <img src="alcami-products4.png" alt="Product 4">
+          </div>
+    
+          <div class="alcami-thumbnail-row packaging-thumbnails" id="packagingThumbnails">
+            <img src="alcami-green-front.png" alt="Packaging 1">
+            <img src="alcami-green-back.png" alt="Packaging 2">
+            <img src="alcami-brown-front.png" alt="Packaging 3">
+            <img src="alcami-brown-back.png" alt="Packaging 4">
+          </div>
         </div>
-      </label>
+      </div>
     </div>
-    
   
-    <div class="subscription-box most-popular">
-
-      <div class="top-label">Most Popular</div>
-    
-      <label class="subscription-header">
-        <input type="radio" name="plan" checked>
-        <div class="plan-name">Single Kit Subscription</div>
-        <div class="plan-price">
-          <span class="price">$37 USD</span>
-          <span class="original-price">$46</span>
-        </div>
-      </label>
-    
-      <hr class="divider" />
-    
-      <div class="included-section">
-        <p class="section-title">What’s Included:</p>
-    
-        <div class="inclusion-cards">
-          <div class="inclusion-card">
-            <p class="inclusion-label">Every 30 Days</p>
-            <img src="alcami-white.png" alt="Every 30 Days">
+    <div class="alcami-flavor">
+      <h2>Alcami Elements</h2>
+      <div class="star-rating">
+        ⭐⭐⭐⭐⭐ 4.7 (989+ reviews)
+      </div>
+      <p class="description">Discover the ancient wisdom supported by modern science, all within the synergy of Alcami Elements. Designed for those who aspire to elevate every facet of life with awareness and intention.</p>
+      <p class="section-label">Choose a flavor</p>
+      <div class="flavor-options">
+        <label class="flavor-option">
+          <div class="flavor-box">
+            <div class="flavor-label">
+              <input type="radio" name="flavor" checked>
+              <span class="flavor-name">Original</span>
+            </div>
+            <img src="alcami-white.png" alt="Original">
+            <span class="badge">BEST-SELLER</span>
           </div>
-          <div class="inclusion-card">
-            <p class="inclusion-label">One Time <span class="free">(Free)</span></p>
-            <div class="addon-items">
-              <img src="alcami-bottle.png" alt="Gold Bottle">
-              <span>+</span>
-              <img src="alcami-shilajit.png" alt="Shilajit">
-              <span>+</span>
-              <img src="alcami-spoon.png" alt="Spoon">
+        </label>
+      
+        <label class="flavor-option">
+          <div class="flavor-box">
+            <div class="flavor-label">
+              <input type="radio" name="flavor">
+              <span class="flavor-name">Matcha</span>
+            </div>
+            <img src="alcami-green.png" alt="Matcha">
+          </div>
+        </label>
+      
+        <label class="flavor-option">
+          <div class="flavor-box">
+            <div class="flavor-label">
+              <input type="radio" name="flavor">
+              <span class="flavor-name">Cacao</span>
+            </div>
+            <img src="alcami-brown.png" alt="Cacao">
+          </div>
+        </label>
+      </div>
+      
+    
+      <div class="subscription-box most-popular">
+  
+        <div class="top-label">Most Popular</div>
+      
+        <label class="subscription-header">
+          <input type="radio" name="plan" checked>
+          <div class="plan-name">Single Kit Subscription</div>
+          <div class="plan-price">
+            <span class="price">$37 USD</span>
+            <span class="original-price">$46</span>
+          </div>
+        </label>
+      
+        <hr class="divider" />
+      
+        <div class="included-section">
+          <p class="section-title">What’s Included:</p>
+      
+          <div class="inclusion-cards">
+            <div class="inclusion-card">
+              <p class="inclusion-label">Every 30 Days</p>
+              <img src="alcami-white.png" alt="Every 30 Days">
+            </div>
+            <div class="inclusion-card">
+              <p class="inclusion-label">One Time <span class="free">(Free)</span></p>
+              <div class="addon-items">
+                <img src="alcami-bottle.png" alt="Gold Bottle">
+                <span>+</span>
+                <img src="alcami-shilajit.png" alt="Shilajit">
+                <span>+</span>
+                <img src="alcami-spoon.png" alt="Spoon">
+              </div>
             </div>
           </div>
-        </div>
-    
-        <ul class="included-benefits">
-          <li>30 Servings Shipped Monthly</li>
-          <li><strong>Free</strong> Golden Kit Gold Bottle + Spoon ($42 Value)</li>
-          <li><strong>Free</strong> 60 Days Supply Of Alcami Shilajit ($78 Value)</li>
-          <li><strong>50% OFF</strong> Shipping (Over $7–$10 In Savings)</li>
-          <li>Pause Or Cancel Anytime After 3 Months Minimum</li>
-          <li>90 Day Money Back Guarantee*</li>
-        </ul>
-<label class="subscription-box alt-plan">
-  <input type="radio" name="plan">
-  <div class="subscription-header">
-    <div class="plan-name">Double Kit Subscription</div>
-    <div class="plan-price">
-      <span class="price">$68 USD</span>
-      <span class="original-price">$83</span>
-    </div>
-  </div>
-</label>
-
-<label class="subscription-box alt-plan">
-  <input type="radio" name="plan">
-  <div class="subscription-header">
-    <div class="plan-name">Try Once</div>
-    <div class="plan-price">
-      <span class="price">$46 USD</span>
-    </div>
-  </div>
-</label>
-
-<div class="add-to-cart-wrapper">
-  <button class="add-to-cart-btn">
-    Add to Cart →
-  </button>
-</div>
-
+      
+          <ul class="included-benefits">
+            <li>30 Servings Shipped Monthly</li>
+            <li><strong>Free</strong> Golden Kit Gold Bottle + Spoon ($42 Value)</li>
+            <li><strong>Free</strong> 60 Days Supply Of Alcami Shilajit ($78 Value)</li>
+            <li><strong>50% OFF</strong> Shipping (Over $7–$10 In Savings)</li>
+            <li>Pause Or Cancel Anytime After 3 Months Minimum</li>
+            <li>90 Day Money Back Guarantee*</li>
+          </ul>
+  <label class="subscription-box alt-plan">
+    <input type="radio" name="plan">
+    <div class="subscription-header">
+      <div class="plan-name">Double Kit Subscription</div>
+      <div class="plan-price">
+        <span class="price">$68 USD</span>
+        <span class="original-price">$83</span>
       </div>
-    
     </div>
+  </label>
+  
+  <label class="subscription-box alt-plan">
+    <input type="radio" name="plan">
+    <div class="subscription-header">
+      <div class="plan-name">Try Once</div>
+      <div class="plan-price">
+        <span class="price">$46 USD</span>
+      </div>
     </div>
-    </div>
+  </label>
+  
+  <div class="add-to-cart-wrapper">
+    <button class="add-to-cart-btn" id="cart-popup">
+      <div id="cart-popup" class="cart-popup">Added to Cart</div>
+    </button>
+  </div>
+  
+        </div>
+      
+      </div>
+      </div>
+      </div>
+  </div>
+ 
     <div class="alcami-certifications">
       <div class="certification-item">
         <img src="non-gmo.png" alt="Non GMO">
