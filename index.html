@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alcami</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- promo label -->
+  <div class="promo-discount">
+    GET 25% OFF YOUR FIRST MONTH. FREE SHIPPING ON U.S ORDERS.
+  </div>
+
+  <!--alcami website menu -->
+  <header class="site-header">
+    <div class="header-container">
+      
+      <div class="logo">
+        <img src="alcami logo.png" alt="Alcami Website Logo">
+      </div>
+  <div class="nav-wrapper">
+    <div class="nav-bar">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle">Shop <img src="down-arrow.png"></a>
+                </li>                  
+          </li>
+          <li><a href="#">Elements</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="search-bar" style="display: none;">
+      <div class="search-input-wrapper">
+        <input type="text" placeholder="Search for products">
+        <span class="close-search" onclick="closeSearch()">✕</span>
+      </div>
+    </div>    
+  </div>
+
+      <div class="hamburger" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <div class="header-actions">
+        <div class="search-icon" onclick="toggleSearch()">
+          <img src="search-icon.png" alt="search icon">
+        </div>        
+        <div class="action-button">
+          <button>Try Alcami <img src="right-arrow.png" alt="arrow pointing right"> </button>
+        </div>
+      </div>
+    </div>
+  </header> 
+  
+  <!--facts on alcami -->
+  <div class="alcami-facts">
+    <div class="alcami-about">
+  
+      <div class="alcami-info">
+  
+        <div class="alcami-rating">
+          <div class="alcami-star-rating">
+            ⭐4.8 star rating 
+          </div>
+          <div class="alcami-rating-text">
+          awarded the top adaptogen blend in the world
+          </div>
+        </div>
+  
+        <div class="alcami-variants">
+          <p>Achieve your highest self.</p>
+        </div>
+  
+        <div class="alcami-features-wrapper">
+
+          <div class="alcami-features">
+            <div class="feature-block">
+              <div class="feature-top gold bold">10x</div>
+              <div class="feature-bottom">concentration</div>
+            </div>
+            <div class="feature-block">
+              <div class="feature-top gold">9</div>
+              <div class="feature-bottom">powerful ingredients</div>
+            </div>
+            <div class="feature-block">
+              <div class="feature-top gold">1000 <span class="mg">mg</span></div>
+              <div class="feature-bottom">of Adaptogens per dose</div>
+            </div>
+          </div>
+        
+          <div class="alcami-shop-now">
+            <button class="shop-button">
+              Shop Now
+              <img src="right-arrow.png" alt="Arrow">
+            </button>
+          </div>
+        
+        </div>
+               
+  
+      </div>
+  
+      <div class="alcami-variant-img">
+        <img src="alcami-variants.png" alt="Hero Image">
+      </div>
+  
+    </div>
+  </div>
+
+  <div class="taste-effects">
+    <p>Incredible Taste and Effects You Can Feel</p>
+   </div>    
+   <div class="alcami-powerful-elements">
+     <div class="alcami-elements-img">
+       <img src="9powerful-elements.png" alt="Alcami Image">
+     </div>
+     <div class="alcami-powerful-elements-about">
+       <div class="text-box">
+         <p>9 POWERFUL ELEMENTS</p>
+       </div>
+       <div class="text-box">
+         <p>All of the Best Ingredients, None of the Compromise</p>
+       </div>
+       <div class="text-box">
+         <p>Alcami uses <span> x10 potency </span>in every serving, formulated for maximum absorption to ensure your body gets the most out of every scoop.</p>
+       </div>
+       <div class="button-box">
+         <button>View full ingredients <img src="right-arrow.png" alt="right-arrow"> </button>
+       </div>
+     </div>
+   </div>
+   <div class="alcami-guarantee">
+     <div class="guarantee-item">
+       <h3>OUR GUARANTEE</h3>
+     </div>
+     <div class="guarantee-item">
+       <div class="guarantee-content">
+         <img src="heart-icon.png" alt="Heart icon">
+         <div class="text-content">
+           <h3>30-Day Guarantee</h3>
+           <p>Love Alcami or send it back</p>
+         </div>
+       </div>
+     </div>
+     <div class="guarantee-item">
+       <div class="guarantee-content">
+         <img src="shipping-icon.png" alt="Shipping icon">
+         <div class="text-content">
+           <h3>Worldwide Shipping</h3>
+           <p>Alcami ships everywhere</p>
+         </div>
+       </div>
+     </div>
+     <div class="guarantee-item">
+       <div class="guarantee-content">
+         <img src="box-icon.png" alt="Box icon">
+         <div class="text-content">
+           <h3>Fast Delivery</h3>
+           <p>On-time quick shipping</p>
+         </div>
+       </div>
+     </div>
+     <div class="guarantee-item">
+       <div class="guarantee-content">
+         <img src="eco-icon.png" alt="Eco icon">
+         <div class="text-content">
+           <h3>Eco Certified</h3>
+           <p>Carbon neutral eco packaging</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="trusted-brands">
+    <!-- 1. Text Link -->
+    <div class="brand-link">
+      <a href="https://www.alcamielements.com/products/himalayan-shilajit" target="_blank">
+        AS SEEN IN
+      </a>
+    </div>
+  
+    <div class="brand-logo">
+      <img src="fastcompany.png" alt="Fast Company">
+    </div>
+    <div class="brand-logo">
+      <img src="forbes.png" alt="Forbes">
+    </div>
+    <div class="brand-logo">
+      <img src="goop.png" alt="Goop">
+    </div>
+    <div class="brand-logo">
+      <img src="time.png" alt="Time">
+    </div>
+    <div class="brand-logo">
+      <img src="thenewyorktimes.png" alt="The new york times">
+    </div>
+  </div>
+  
+  <div class="alcami-select-flavor">
+  <div class="alcami-product-image">
+  
+  <div class="alcami-elements-image-container">
+    <div class="elements-images">
+      <img src="elements-ring.png" alt="elements Ring" class="elements-ring">
+      <img src="alcami-main-product.png" alt="Alcami elements Image" class="main-product-img">
+    </div>
+  
+<div class="carousel-controls">
+  <button class="arrow left-slider" aria-label="Previous">
+    <img src="left-slider.png" alt="Previous">
+  </button>
+
+  <div class="radio-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <button class="arrow right-slider" aria-label="Next">
+    <img src="right-slider.png" alt="Next">
+  </button>
+</div>
+
+  
+    <div class="alcami-thumbnail-row product-thumbnails">
+      <img src="alcami-products1.png" alt="Product 1">
+      <img src="alcami-products2.png" alt="Product 2">
+      <img src="alcami-products3.png" alt="Product 3">
+      <img src="alcami-products4.png" alt="Product 4">
+    </div>
+  
+    <div class="alcami-thumbnail-row packaging-thumbnails">
+      <img src="alcami-green-front.png" alt="Packaging 1">
+      <img src="alcami-green-back.png" alt="Packaging 2">
+      <img src="alcami-brown-front.png" alt="Packaging 3">
+      <img src="alcami-brown-back.png" alt="Packaging 4">
+    </div>
+  
+  </div>  
+
+  <div class="alcami-flavor">
+    <h2>Alcami Elements</h2>
+    <div class="star-rating">
+      ⭐⭐⭐⭐⭐ 4.7 (989+ reviews)
+    </div>
+    <p class="description">Discover the ancient wisdom supported by modern science, all within the synergy of Alcami Elements. Designed for those who aspire to elevate every facet of life with awareness and intention.</p>
+    <p class="section-label">Choose a flavor</p>
+    <div class="flavor-options">
+      <label class="flavor-option">
+        <div class="flavor-box">
+          <div class="flavor-label">
+            <input type="radio" name="flavor" checked>
+            <span class="flavor-name">Original</span>
+          </div>
+          <img src="alcami-white.png" alt="Original">
+          <span class="badge">BEST-SELLER</span>
+        </div>
+      </label>
+    
+      <label class="flavor-option">
+        <div class="flavor-box">
+          <div class="flavor-label">
+            <input type="radio" name="flavor">
+            <span class="flavor-name">Matcha</span>
+          </div>
+          <img src="alcami-green.png" alt="Matcha">
+        </div>
+      </label>
+    
+      <label class="flavor-option">
+        <div class="flavor-box">
+          <div class="flavor-label">
+            <input type="radio" name="flavor">
+            <span class="flavor-name">Cacao</span>
+          </div>
+          <img src="alcami-brown.png" alt="Cacao">
+        </div>
+      </label>
+    </div>
+    
+  
+    <div class="subscription-box most-popular">
+
+      <div class="top-label">Most Popular</div>
+    
+      <label class="subscription-header">
+        <input type="radio" name="plan" checked>
+        <div class="plan-name">Single Kit Subscription</div>
+        <div class="plan-price">
+          <span class="price">$37 USD</span>
+          <span class="original-price">$46</span>
+        </div>
+      </label>
+    
+      <hr class="divider" />
+    
+      <div class="included-section">
+        <p class="section-title">What’s Included:</p>
+    
+        <div class="inclusion-cards">
+          <div class="inclusion-card">
+            <p class="inclusion-label">Every 30 Days</p>
+            <img src="alcami-white.png" alt="Every 30 Days">
+          </div>
+          <div class="inclusion-card">
+            <p class="inclusion-label">One Time <span class="free">(Free)</span></p>
+            <div class="addon-items">
+              <img src="alcami-bottle.png" alt="Gold Bottle">
+              <span>+</span>
+              <img src="alcami-shilajit.png" alt="Shilajit">
+              <span>+</span>
+              <img src="alcami-spoon.png" alt="Spoon">
+            </div>
+          </div>
+        </div>
+    
+        <ul class="included-benefits">
+          <li>30 Servings Shipped Monthly</li>
+          <li><strong>Free</strong> Golden Kit Gold Bottle + Spoon ($42 Value)</li>
+          <li><strong>Free</strong> 60 Days Supply Of Alcami Shilajit ($78 Value)</li>
+          <li><strong>50% OFF</strong> Shipping (Over $7–$10 In Savings)</li>
+          <li>Pause Or Cancel Anytime After 3 Months Minimum</li>
+          <li>90 Day Money Back Guarantee*</li>
+        </ul>
+<label class="subscription-box alt-plan">
+  <input type="radio" name="plan">
+  <div class="subscription-header">
+    <div class="plan-name">Double Kit Subscription</div>
+    <div class="plan-price">
+      <span class="price">$68 USD</span>
+      <span class="original-price">$83</span>
+    </div>
+  </div>
+</label>
+
+<label class="subscription-box alt-plan">
+  <input type="radio" name="plan">
+  <div class="subscription-header">
+    <div class="plan-name">Try Once</div>
+    <div class="plan-price">
+      <span class="price">$46 USD</span>
+    </div>
+  </div>
+</label>
+
+<div class="add-to-cart-wrapper">
+  <button class="add-to-cart-btn">
+    Add to Cart →
+  </button>
+</div>
+
+      </div>
+    
+    </div>
+    </div>
+    </div>
+    <div class="alcami-certifications">
+      <div class="certification-item">
+        <img src="non-gmo.png" alt="Non GMO">
+        <p>Non-GMO</p>
+      </div>
+      <div class="certification-item">
+        <img src="diary-free.png" alt="Dairy Free">
+        <p>Dairy-Free</p>
+      </div>
+      <div class="certification-item">
+        <img src="vegan.svg" alt="Vegan">
+        <p>Vegan</p>
+      </div>
+      <div class="certification-item">
+        <img src="keto.svg" alt="Keto">
+        <p>Keto</p>
+      </div>
+      <div class="certification-item">
+        <img src="gmp-certified.svg" alt="GMP Certified">
+        <p>GMP Certified</p>
+      </div>
+      <div class="certification-item">
+        <img src="nsf-certified.svg" alt="NSF Certified">
+        <p>NSF Certified</p>
+      </div>
+    </div>
+    
+    <div class="himalayan-shilajit">
+      <div class="himalayan-shilajit-img">
+        <img src="himalayan-shilajit-img.png" alt="Himalayan Shilajit">
+      </div>
+    
+      <div class="shilajit-content">
+        <h2>Himalayan Shilajit</h2>
+        <p class="subtext">Nature's Ultimate Adaptogen</p>
+    
+        <div class="shilajit-features">
+          <div class="feature-card">
+            <img src="stamina.png" alt="Boost Energy Icon">
+            <div>
+              <h4>Boosts Energy and Stamina</h4>
+              <p>Shilajit enhances vitality, supporting increased energy levels, physical endurance, and overall stamina.</p>
+            </div>
+          </div>
+    
+          <div class="feature-card">
+            <img src="health.png" alt="Bone Health Icon">
+            <div>
+              <h4>Enhances Bone and Men's Health</h4>
+              <p>Shilajit provides essential minerals for strong bones and supports men's reproductive health and testosterone levels.</p>
+            </div>
+          </div>
+    
+          <div class="feature-card">
+            <img src="stress.png" alt="Focus Icon">
+            <div>
+              <h4>Promotes Cognitive Function & Stress Relief</h4>
+              <p>Shilajit may improve mental clarity, focus, and memory while helping the body adapt to stress.</p>
+            </div>
+          </div>
+    
+          <div class="feature-card">
+            <img src="anti-aging.png" alt="Immune Icon">
+            <div>
+              <h4>Supports Immune Health & Anti-Aging</h4>
+              <p>Rich in antioxidants, Shilajit reduces oxidative stress, boosts immunity, and supports youthful skin.</p>
+            </div>
+          </div>
+        </div>
+    
+        <button class="try-button">Try Shilajit →</button>
+      </div>
+    </div>
+    <div class="alcami-subscription">
+      <div class="alcami-subscription-img">
+      <img src="alcami-with-coffee.png" alt="Alcami Subscription Image">
+      </div>
+      
+      <div class="alcami-subscription-info">
+        <p class="subscription-label">SUBSCRIPTION</p>
+        <h3>Subscribe & save <span>20%</span> + free frother and bottle and spoon</h3>
+      
+        <div class="subscription-features">
+          <p>Laser Focus</p>
+          <p>Sustained Energy</p>
+          <p>Clear Mind</p>
+          <p>Improved Mood</p>
+          <p>No Caffeine</p>
+          <p>Calm Balance</p>
+        </div>
+      
+        <button class="subscribe-now-btn">
+          Subscribe Now
+          <img src="right-arrow.png" alt="Arrow icon" />
+        </button>
+      </div>
+</div>
+</div>      
+
+<div class="alcami-morning-ritual">
+  <div class="ritual-steps">
+    <h2>Your morning ritual, <br>made to awaken your mind.</h2>
+    <p>Transform your mornings with a simple, potent, and powerful ritual that fuels your day.</p>
+
+    <div class="step">
+      <div class="step-number">1</div>
+      <div class="step-info">
+        <h3>Prep your favorite drink</h3>
+        <p>Start your morning with your favorite beverage, whether it's a nutrient-packed smoothie or a warm cup of tea.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">2</div>
+      <div class="step-info">
+        <h3>Take a scoop</h3>
+        <p>Simply add one potent scoop packed with x10 the potency to boost energy, enhance clarity, and support wellness all day.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">3</div>
+      <div class="step-info">
+        <h3>Customize and mix</h3>
+        <p>Stir well for a perfectly blended, nutrient-rich beverage that awakens your mind and prepares you for the day.</p>
+      </div>
+    </div>
+
+    <button class="see-how-button">See how people are using Alcami →</button>
+  </div>
+
+  <div class="ritual-video">
+    <img src="morning-video-thumbnail.png" alt="Morning ritual video" />
+    <div class="play-icon">▶</div>
+  </div>
+</div>
+
+      </div>
+      <div class="alcami-statistics">
+      <div class="stat-item">
+      <h2>84%</h2>
+      <p>Reported increased energy throughout their day</p>
+      </div>
+      <div class="stat-item">
+      <h2>78%</h2>
+      <p>Reported feeling more focused</p>
+      </div>
+      <div class="stat-item">
+      <h2>89%</h2>
+      <p>Reported a sense of calmness & steady mood</p>
+      </div>
+      <div class="stat-item">
+      <h2>90%</h2>
+      <p>Reported feeling an overall increased wellness in their gut, skin, hair, and physical health</p>
+      </div>
+      </div>
+
+      
+      <div class="alcami-comparison-table">
+      <p class="break-point">---</p>
+      <h2>Why Alcami is the #1 Choice for your Productivity and Performance</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Benefits</th>
+            <th class="alcami-col">
+              <img src="alcami-table-img.png" alt="Alcami" style="width: 100px; height: auto;" />
+            </th>            
+            <th>MUD/WTR</th>
+            <th>RYZE</th>
+            <th>EVERYDAY DOSE</th>
+          </tr>
+        </thead>
+      
+      <tbody>
+      <tr>
+      <td>Potency Concentration</td>
+      <td class="alcami-col">10x</td>
+      <td>1x</td>
+      <td>1x</td>
+      <td>10x</td>
+      </tr>
+      <tr>
+      <td>Extracts Concentrates</td>
+      <td class="alcami-col"><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+    </tr>
+      <tr>
+      <td>Effects You Can Feel</td>
+      <td class="alcami-col"><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+    </tr>
+      <tr>
+      <td># of Beneficial Ingredients</td>
+      <td class="alcami-col">9</td>
+      <td>5</td>
+      <td>6</td>
+      <td>2</td>
+      </tr>
+      <tr>
+      <td>Incredible Taste</td>
+      <td class="alcami-col"><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+    </tr>
+      <tr>
+      <td>No Caffeine</td>
+      <td class="alcami-col"><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+    </tr>
+      <tr>
+      <td>No Starch or Mylcelated Oats</td>
+      <td class="alcami-col"><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+    </tr>
+      <tr>
+      <td>100% Fruiting Body Mushroom</td>
+      <td class="alcami-col"><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="cross-icon-png.png" alt="No" class="icon-cross" /></td>
+      <td><img src="tick-icon-svg.svg" alt="Yes" class="icon-check" /></td>
+    </tr>
+      </tbody>
+      </table>
+      <button class="cta-button">Try It Risk-Free →</button>
+      </div>
+      <div class="founders-section">
+      <div class="video-container">
+      <img src="thumbnail.png" alt="Founder Video" class="founder-image">
+      </div>
+      <div class="founder-section">
+        <div class="founder-left">
+          <h2>From the Founders</h2>
+          <button class="about-us-btn">About Us →</button>
+        </div>
+        <div class="founder-right">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod.
+          </p>
+        </div>
+      </div>
+      
+      </div>
+      <div class="customer-reviews">
+        <div class="reviews-header">
+          <div>
+            <h2>What our customers are saying</h2>
+            <p>Real people, real reviews.</p>
+          </div>
+          <div class="arrow-buttons">
+            <button class="arrow-next-dark">&#8594;</button>
+          </div>
+        </div>
+      
+        <div class="reviews-container">
+          <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+            <div class="reviewer-info">
+              <img src="reviewer-placeholder.png" alt="Reviewer Image">
+              <div>
+                <p class="reviewer-name">Name Surname</p>
+                <p class="reviewer-position">Position, Company name</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+            <div class="reviewer-info">
+              <img src="reviewer-placeholder.png" alt="Reviewer Image">
+              <div>
+                <p class="reviewer-name">Name Surname</p>
+                <p class="reviewer-position">Position, Company name</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+            <div class="reviewer-info">
+              <img src="reviewer-placeholder.png" alt="Reviewer Image">
+              <div>
+                <p class="reviewer-name">Name Surname</p>
+                <p class="reviewer-position">Position, Company name</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="pagination-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+      
+      <div class="faq-container">
+      <div class="faq-left">
+      <h2>F.A.Qs</h2>
+      <p>If you have any questions that aren’t answered in our FAQs, we’d love to hear from you!</p>
+      <button class="contact-btn">Get in touch
+        <img src="right-arrow.png" alt="arrow pointing right">
+      </button>
+      </div>
+      
+      <div class="faq-right">
+      <div class="faq-item">
+      <a href="#">If I subscribe can I cancel anytime? <span class="plus">+</span></a>
+      <div class="dropdown">
+      <a href="#">Yes, you can cancel at any time</a>
+      <a href="#">No, it's a monthly subscription</a>
+      </div>
+      </div>
+      
+      <div class="faq-item">
+      <a href="#">Can I take this at night? <span class="plus">+</span></a>
+      <div class="dropdown">
+      <a href="#">Yes, it's safe to take at night</a>
+      <a href="#">Consult your doctor if you have concerns</a>
+      </div>
+      </div>
+      
+      <div class="faq-item">
+      <a href="#">Where are your ingredients sourced from? <span class="plus">+</span></a>
+      <div class="dropdown">
+      <a href="#">We source our ingredients globally</a>
+      <a href="#">Our ingredients are sustainably sourced</a>
+      </div>
+      </div>
+      
+      <div class="faq-item">
+      <a href="#">Will this get me high? <span class="plus">+</span></a>
+      <div class="dropdown">
+      <a href="#">No, our product is not psychoactive</a>
+      <a href="#">It’s safe for daily use</a>
+      </div>
+      </div>
+      
+      <div class="faq-item">
+      <a href="#">Are you using fruiting bodies for your mushrooms? <span class="plus">+</span></a>
+      <div class="dropdown">
+      <a href="#">Yes, we only use fruiting bodies</a>
+      <a href="#">Fruiting bodies have higher potency</a>
+      </div>
+      </div>
+      
+      <a href="#" class="see-all-faqs">See All FAQ’s</a>
+      </div>
+      </div>
+      
+      
+      </div>
+      <div class="subscribe-wrapper">
+      <div class="subscribe-now">
+        <div class="subscribe-content">
+          <h3>Sign up and receive up to 15% OFF<br>on your first order</h3>
+          <p>Get weekly recipes, insights, and freebies when you sign up to our newsletter.</p>
+      
+          <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">
+              Subscribe
+              <img src="right-arrow.png" alt="arrow pointing right">
+            </button>
+          </form>
+        </div>
+      </div>
+      </div>
+      <footer class="site-footer">
+        <div class="footer-container">
+      
+          <div class="footer-column">
+            <div class="footer-logo">ALCAMI</div>
+      
+            <div class="footer-links">
+              <div>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Elements</a>
+              </div>
+              <div>
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+              </div>
+              <div class="social-links">
+                <a href="#"><img src="Facebook.png" alt="Facebook"> Facebook</a>
+                <a href="#"><img src="Instagram.png" alt="Instagram"> Instagram</a>
+                <a href="#"><img src="X.png" alt="X"> X</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="footer-column newsletter">
+            <p class="newsletter-heading">Join our newsletter to stay up to date on features and releases.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit">Subscribe</button>
+            </form>
+            <p class="privacy-note">
+              By subscribing you agree to our <a href="#">Privacy Policy</a> and provide consent to receive updates from our company.
+            </p>
+          </div>
+      
+        </div>
+      
+        <div class="footer-bottom">
+          © 2024 ALCAMI ELEMENTS. ALL RIGHTS RESERVED.
+        </div>
+      </footer>
+      <script src="script.js" defer></script>
+</body>
+</html>
